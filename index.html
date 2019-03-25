@@ -5,18 +5,13 @@
   <meta name="description" content="Joel's an Oxford-based aspiring lawyer. He's learning to code, which is why this exists.">
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/joelstanlee/jsc/master/favicon.ico">
   <link rel="apple-touch-icon" type="image/x-icon" href="https://raw.githubusercontent.com/joelstanlee/jsc/master/apple-touch-icon.png">
-  
-        
-      
   <style>
-    
   @font-face {
   font-family: Karla;
     src: url(https://github.com/joelstanlee/jsc/Karla-Regular.ttf) format ('truettype'),
          url(https://github.com/joelstanlee/jsc/Karla-Regular.ttf) format ('opentypeface'),
          url(https://github.com/joelstanlee/jsc/karla-regular-webfont.woff) format ('woff');
     }
-
     body {
       font-size: 15px;
       background-color: rgb(250, 114, 104);
@@ -28,9 +23,15 @@
     p {
       font-family: 'Karla', sans-serif;
     }
+    p span {
+      background-color:	#fb9fa4;
+      border-radius: 5px;
+      padding:2px;
+      line-height:1.5em;
+    }
     li {
       font-family: 'Karla', sans-serif;
-      margin: 5px;
+      margin: 3px;
     }
     a {
       text-decoration: none;
@@ -39,6 +40,8 @@
     a:hover {
       color: white;
       background-color: black;
+      border-radius: 5px;
+      padding: 2px;
     }
     #container {
       width: 500px;
@@ -46,22 +49,32 @@
       padding-top:70px;
       text-align:justify;
     }
+    #bottom-social {
+      position: absolute;
+      bottom: 5px;
+    }
+    img {
+      width: 30px;
+      border-radius: 50%;
+    }
   </head>
   </style>
   <body>
    <div id="container">
-    <p>Hey, this is Joel's website.</p>
-    <p>Joel is an undergrad at Oxford University.<br>He studies Philosophy & Theology.</p>
-    <p>He's an aspiring lawyer.</p>
-    <p>Right now, he's learning to code. It's going ok so far, but it's early days. This site might get more complex soon. We'll see.</p>
-    <p>In the mean time:</p>
+    <p><span>Hey, this is Joel's website.</span></p>
+    <p><span>Joel is an undergrad at Oxford University.</span><br><span>He studies Philosophy & Theology.</span></p>
+    <p><span>He's an aspiring lawyer.</span></p>
+    <p><span>Right now, he's learning to code. It's going ok so far, but it's early</span><span> days. This site might get more complex soon. We'll see.</span></p>
+    <p><span>In the mean time:</span></p
     <ol>
       <li>Joel runs a <a target = "_blank" href = "https://joelstanley1.wordpress.com/">blog</a>. It's mainly about (big)tech and law.</li>
       <li>Joel <a target="_blank" href = "https://twitter.com/joelstanlee">tweets</a> frequently. He doesn't have many followers, but he enjoys it anyway</li>
       <li>Joel keeps his <a target = "_blank" href= "https://www.linkedin.com/in/joelstanlee/">Linkedin</a> up to date.</li>
-      <li>Joel likes theatre and is the 2019-2020 <a target = "blank" href="https://www.ouds.org/">OUDS</a> secretary.</li>
+      <li>Joel likes theatre and is the 2019-2020 <a target = "_blank" href="https://www.ouds.org/">OUDS</a> secretary.</li>
       <li>Joel keeps his CV <a target = "_blank" href= "http://jsc.strikingly.com/">here</a> for safe-keeping, but you can have a look if you want.</li>
     </ol>
+    <p id="bottom-social"><img src="https://pbs.twimg.com/profile_images/1109931040422928384/HQ8QZCT__400x400.jpg" alt="cartoon photo of Joel">
+    <a target = "_blank" href="https://twitter.com/joelstanlee">@Joelstanlee</a> made this.</p>
     </div>
   </body>
 </html>
